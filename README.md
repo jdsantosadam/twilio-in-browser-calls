@@ -35,6 +35,8 @@ ngrok http 3000
 
 ## Using in conjunction with the Twilio Media Stream project
 
+Media Stream Azure Real-Time Transcription project: https://github.com/jdsantosadam/mediastream-consume-twilio-azurespeech 
+
 Call the configured number that has the attached TwiML Bin that will send the audio stream to this Flask server. The transcription will be printed in that project console.
 
 Remember, run this project and the Twilio Media Stream project in different terminals.
